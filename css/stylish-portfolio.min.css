@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6{
 .sidebar-nav li a:hover{
     text-decoration:none;
     color:#fff;
-    background:rgba(255,255,255,.2)
+    background:grey;
 }
 .sidebar-nav li a:active,.sidebar-nav li a:focus{
     text-decoration:none
@@ -151,7 +151,8 @@ h1,h2,h3,h4,h5,h6{
     height:50px;
     text-align:center;
     color:#fff;
-    background:rgba(52,58,64,.5);
+    /* background:rgba(52,58,64,.5); */
+    background: pink;
     line-height:50px;
     z-index:999
 }
@@ -306,7 +307,9 @@ a:active,a:focus,a:hover{
 .bg-primary{
     background-color:#1d809f!important
 }
-.text-primary{
-    color:#1d809f!important
-}
+
 .text-secondary{color:#ecb807!important}
+
+.row{
+    margin: auto;
+}

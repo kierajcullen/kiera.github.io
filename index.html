@@ -60,9 +60,9 @@
         <!--changed mb from 5 to 6-->
         <p>Thank you for taking the time to visit my portfolio.</p>
       </h2>
-      <h4>
-        <p>""</p>
-      </h4>
+      <h3>
+        <p>Let's Get Started!</p>
+      </h3>
       <!-- Add photo of you here -->
       <!-- <img src="./img/profile1.jpg" alt="Headshot">  -->
       <!--the image above is way too large-->
@@ -77,8 +77,11 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2>Welcome!</h2>
-          <p class="lead mb-5">My name is Kiera. I am an aspiring web developer with years of customer service experience. In December 2020, I graduated from The College of New Jersey with a degree in Electrical Engineering Management. 
-            I have a passion for information technology and value continuous learning. My goal is to make information more easily accessible to everyone, so 
+          <p class="lead mb-5">My name is Kiera. I am an aspiring web developer with years of customer service
+            experience. In December 2020, I graduated from The College of New Jersey with a degree in Electrical
+            Engineering Management.
+            I have a passion for information technology and value continuous learning. My goal is to help make
+            information more easily accessible to everyone.
           </p>
           <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Continue</a>
         </div>
@@ -120,7 +123,7 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <a class="icon-social-facebook" href="https://www.facebook.com/Kieraa.Cullen" target="_blank"></a> 
+            <a class="icon-social-facebook" href="https://www.facebook.com/Kieraa.Cullen" target="_blank"></a>
           </span>
           <h4>
             <strong>Facebook</strong>
@@ -143,7 +146,8 @@
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">Static Site</div>
-                <p class="mb-0">As a student at Rutgers Coding Bootcamp, I am furthering my Front-End and Back-End web development skills. </p>
+                <p class="mb-0">As a student at Rutgers Coding Bootcamp, I am furthering my Front-End and Back-End web
+                  development skills. </p>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
@@ -187,15 +191,94 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
+  <!-- <section class="content-section bg-primary text-white" id="contact">
     <div class="container text-center">
-      <h2 class="mb-4">Contact</h2>
-      <!-- <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
+      <h2 class="mb-4">Contact</h2> -->
+  <!-- <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
       <a href="#!" class="btn btn-xl btn-dark">Look at Me!</a> -->
+  <!-- </div>
+  </section> -->
+  <!-- Add bootstrap direct contact page -->
+
+  <!--Section: Contact v.2-->
+  <!-- <section class="mb-4"> -->
+  <section class="content-section bg-primary text-white" id="contact">
+    <div class="container text-center">
+      <!-- <h2 class="mb-4">Contact</h2> -->
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me
+        directly.</p>
+
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <textarea type="text" id="message" name="message" rows="2"
+                    class="form-control md-textarea"></textarea>
+                  <label for="message">Your message</label>
+                </div>
+
+              </div>
+            </div>
+            <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+        </div>
+      </div>
     </div>
+
   </section>
-<!-- Add bootstrap direct contact page -->
-<!-- fix scrolling issue -->
+  <!--Section: Contact v.2-->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
