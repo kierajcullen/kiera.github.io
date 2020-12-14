@@ -308,7 +308,7 @@ a:active,a:focus,a:hover{
     background-color:#1d809f!important
 }
 
-.text-secondary{color:#ecb807!important}
+.text-secondary{color: pink!important}
 
 .row{
     margin: auto;
