@@ -15,24 +15,6 @@ body {
   font-family: 'Cardo', serif;
 
 }
-/* 
-.btn-xl {
-  padding: 1.25rem 2.5rem;
-}
-
-.content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
-}
-
-.content-section-heading h2 {
-  font-size: 3rem;
-}
-
-.content-section-heading h3 {
-  font-size: 1rem;
-  text-transform: uppercase;
-} */
 
 h1,
 h2,
@@ -44,19 +26,6 @@ h6 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
-
-/* .text-faded {
-  color: rgba(255, 255, 255, 0.7);
-} */
-
-/* added this container */
-/* .container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 40vh 30vh 30vh;
-  grid-gap: 10px;
-  border-radius: 50%;
-} */
 
 .scroll-to-top {
   position: fixed;
@@ -102,15 +71,6 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
-/* @media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-} */
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -179,7 +139,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #c793c9;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -242,6 +202,7 @@ h6 {
     max-width: none;
     margin: 0;
   }
+
   .portfolio-item .caption {
     transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
@@ -290,18 +251,18 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #c793c9;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #c793c9;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: #c793c9;
 }
 
 a:hover, a:focus, a:active {
@@ -309,8 +270,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #c793c9 !important;
+  border-color: #c793c9 !important;
   color: #fff !important;
 }
 
