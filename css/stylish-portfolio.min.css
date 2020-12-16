@@ -56,18 +56,29 @@ h1,h2,h3,h4,h5,h6{
     padding-top:8rem;
     padding-bottom:8rem;
     color: white;
-    background: url(../img/bg-masthead1.jpg);
+    background: url(../img/cover.jpg);
     /*linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%), placed above before url*/
     /* background-position:center center; */
     /* background-repeat:no-repeat; */
-    background-size:cover
+    background-size:cover;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+         animation: fadein 4s;
+    /* display: block; */
 }
+
+/* Image Fades In */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .masthead h1{
     font-size:4rem;
     margin:0;
     padding:0;
     color: white; /*changed the header color*/
 }
+
 @media (min-width:992px)
 {
 /* Controls Sidebar */
