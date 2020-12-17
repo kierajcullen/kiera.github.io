@@ -8,13 +8,21 @@ $message = $_POST['message'];
 if(isset( $_POST['subject']))
 $subject = $_POST['subject'];
 
+$headers = "From: ".$email;
+// two new lines for spacing/will link email with appropriate information
+$txt = "You have receieved an email from ".$name ".\n\n"
+
+mail($recipient, $subject, $content, $mailheader) or die("Error!");
+
+
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+
 $content="From: $name \n Email: $email \n Message: $message";
 $recipient = "kierajcullen@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
 echo "Email sent!";
 ?>
-
 
 <?php
 $name = $_POST['name'];
