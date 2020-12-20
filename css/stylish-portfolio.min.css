@@ -6,17 +6,18 @@ html {
 
 body {
   font-family: "Source Sans Pro";
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+  /* overflow-x: hidden; not sure what this does*/
+  /* margin: 0; */
+  /* padding: 0; */
+  /* ask elena */
 }
 
-canvas {
+/* canvas {
   position: absolute;
   top: 0;
   left: 0;
   background-color: black;
-}
+} */
 
 /* Makes the button extra large */
 .btn-xl {
@@ -63,9 +64,11 @@ h6 {
 .scroll-to-top:hover {
   background: #343a40;
 }
+
 /* .scroll-to-top i{
     font-weight:800
 } */
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -208,12 +211,12 @@ h6 {
   background-size: cover;
 } */
 
-.callout h2 {
+/* .callout h2 {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
   max-width: 30rem;
-}
+} */
 .portfolio-item {
   display: block;
   position: relative;
