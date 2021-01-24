@@ -297,7 +297,7 @@ a {
 }
 
 .contact-section {
-  background: url(bn.png) no-repeat center;
+  /* background: url(bn.png) no-repeat center; */
   background-size: cover;
   padding: 40px 0;
   background-color: #343a40;
