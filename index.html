@@ -215,13 +215,20 @@
 
   <section class="container text-center">
 
-    <form name="contact do you fucking work" method="POST" data-netlify="true">
-    <input type="text" class="contact-form-text" placeholder="Your Name">
-    <input type="email" class="contact-form-text" placeholder="Your Email">
+  <!-- <form name="contact" class="contact-form" netlify> -->
+    <!-- <input type="text" class="contact-form-text" placeholder="Your Name">
+    <input type="email" class="contact-form-text" placeholder="Your Email"> -->
     <!-- <input type="text" class="contact-form-text" placeholder="Your Message"> -->
-    <textarea class="contact-form-text" placeholder="Your Message"></textarea>
+    <!-- <textarea class="contact-form-text" placeholder="Your Message"></textarea>
     <button type="submit" class="contact-form-btn">Submit</button>
-  </form>
+  </form> -->
+  <form name="contact" class="contact-form" method="POST" data-netlify="true">
+  <input name="full name" type="text" class="contact-form-text" placeholder="Your Name">
+  <input name="email" type="email" class="contact-form-text" placeholder="Your Email">
+  <!-- <input type="text" class="contact-form-text" placeholder="Your Message"> -->
+  <textarea name="message" class="contact-form-text" placeholder="Your Message"></textarea>
+  <button type="submit" class="contact-form-btn">Submit</button>
+</form>
 </section>
 </section>
 </footer>
