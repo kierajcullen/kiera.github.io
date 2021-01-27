@@ -6,25 +6,14 @@ html {
 
 body {
   font-family: "Source Sans Pro";
-  /* overflow-x: hidden; not sure what this does*/
-  /* margin: 0; */
-  /* padding: 0; */
-  /* ask elena */
 }
-
-/* canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: black;
-} */
 
 /* Makes the button extra large */
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 3.5rem;
   padding-bottom: 7.5rem;
 }
 .content-section-heading h2 {
