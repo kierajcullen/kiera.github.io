@@ -8,6 +8,6 @@ https://kieracullen.netlify.app/
 https://github.com/kierajcullen/kiera.github.io
 
 # Preview
-![](img/github.png)
+![](img/github.GIF)
 
 
